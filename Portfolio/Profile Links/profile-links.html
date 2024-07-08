@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Profile Links</title>
+  <link rel="stylesheet" href="profile-links.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="container">
+    <div class="img">
+      <img src="cat.jpg" alt="Profile Picture">
+    </div>
+    <h2>Gerald Postre</h2>
+    <h3>Quezon City, Philippines</h3>
+    <div class="links">
+      <button type="button" class="facebook" onclick="navigateTo('https://www.facebook.com/gerald666666?mibextid=ZbWKwL')"> <i class='bx bxl-facebook-circle'></i></button>
+      <button type="button" class="youtube" onclick="navigateTo('https://youtube.com/@glp2007?si=T5U_IjryhkFP8JkJ')"><i class='bx bxl-youtube'></i></button>
+      <button type="button" class="twitter" onclick="navigateTo('https://x.com/Lexus_GMD?t=7Qk_KbQ-QWFVgZk5rH4lEw&s=09')"><i class='bx bxl-twitter'></i></button>
+    </div>
+  </div>
+  <script>
+    function navigateTo(url){
+      window.location.href = url;
+    }
+  </script>
+</body>
+</html>
