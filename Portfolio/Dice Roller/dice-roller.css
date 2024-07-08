@@ -30,10 +30,10 @@ button{
   margin-top: 10px;
   user-select: none;
   background-color: black;
-  transform: transition 0.2s ease;
+  transform: transition 0.3s ease;
 }
 button:hover{
-  transform: scale(1.05);
+  transform: scale(1.07);
 }
 input{
   width: 150px;
