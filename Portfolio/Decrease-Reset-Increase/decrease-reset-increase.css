@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  height: 100vh;
+  background-color: #DCE3EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#countLabel{
+  text-align: center;
+  font-size: 8em;
+  color: white;
+  text-shadow: 0 0 10px hsla(215, 0%, 0%, 1);
+}
+.buttons{
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #FFFFFF;
+  color: black;
+  transition: background-color 0.25s;
+  box-shadow: 0 0 10px hsla(215, 0%, 0%, 1);
+  font-size: 1.1em;
+  margin: 3px;
+}
+.buttons:hover{
+  background-color: hsla(215, 68%, 62%, 1);
+}
+.button:active{
+  background-color: hsla(215, 68%, 62%, 1);
+}
