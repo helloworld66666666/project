@@ -31,13 +31,13 @@ p{
   margin: 20px 0; /* Top and bottom margin */
 }
 .pogi{
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: bold;
-  color: #333333; /* Darker text color */
-  transition: color 0.3s ease; /* Smooth color transition */
+  color: hsla(211, 100%, 50%, 1);
+  transition: color 0.3s ease;
 }
-.pogi:hover, .pogi:active{
-  color: #007BFF; /* Blue color on hover */
+.pogi:hover{
+  color: hsla(211, 100%, 65%, 1);
 }
 .project{
   margin: 20px 0;
