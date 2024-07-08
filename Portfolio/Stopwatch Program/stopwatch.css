@@ -50,20 +50,20 @@ body{
   font-family: "Poppins", sans-serif;
 }
 #startBtn{
-  background-color: hsla(126, 100%, 50%, 1);
+  background-color: hsla(120, 60%, 50%, 1);
 }
 #startBtn:hover{
-  background-color: hsla(126, 100%, 40%, 1);
+  background-color: hsla(120, 60%, 40%, 1);
 }
 #stopBtn{
-  background-color: hsla(0, 100%, 50%, 1);
+  background-color: hsla(0, 70%, 50%, 1);
 }
 #stopBtn:hover{
-  background-color: hsla(0, 100%, 40%, 1);
+  background-color: hsla(0, 70%, 40%, 1);
 }
 #resetBtn{
-  background-color: hsla(218, 100%, 50%, 1)
+  background-color: hsla(0, 0%, 50%, 1)
 }
 #resetBtn:hover{
-  background-color: hsla(218, 100%, 40%, 1);
+  background-color: hsla(0, 0%, 40%, 1);
 }
