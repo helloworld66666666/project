@@ -20,7 +20,7 @@ body{
 button{
   font-size: 1.5rem;
   padding: 10px 15px;
-  border: 2px solid black;
+  border: none;
   outline: none;
   border-radius: 10px;
   font-weight: bold;
@@ -30,6 +30,10 @@ button{
   margin-top: 10px;
   user-select: none;
   background-color: black;
+  transform: transition 0.15s ease;
+}
+button:hover{
+  transform: scale(1.05);
 }
 input{
   width: 150px;
