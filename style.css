@@ -37,7 +37,7 @@ p{
   transition: color 0.3s ease;
 }
 .pogi:hover{
-  color: hsla(211, 100%, 65%, 1);
+  color: hsla(211, 100%, 70%, 1);
 }
 .project{
   margin: 20px 0;
